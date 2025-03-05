@@ -16,6 +16,7 @@ Weighted overlay of detected lanes on the original image.
 
 📂 Project Structure
 
+```
 Lane-Detection/
 │── data/                     # Folder for sample images and videos
 │   ├── test_images/          # Sample test images
@@ -27,6 +28,7 @@ Lane-Detection/
 │   ├── lane_detection.ipynb  # Notebook for testing and visualizing lane detection
 │── README.md                 # Project documentation
 │── .gitignore                # Files to be ignored by Git
+```
 
 🚀 Installation
 
@@ -34,15 +36,6 @@ Clone the repository:
 
 git clone https://github.com/WillZhang115/Lane-Detection.git
 cd Lane-Detection
-
-Create a virtual environment (optional but recommended):
-
-python -m venv venv
-source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
-
-Install dependencies:
-
-pip install -r requirements.txt
 
 🛠 Usage
 

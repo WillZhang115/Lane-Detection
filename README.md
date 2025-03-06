@@ -38,22 +38,8 @@ cd Lane-Detection
 
 🛠 Usage
 
-Running Lane Detection on an Image
-```
-from lane_detection import pipeline
-import cv2
-import matplotlib.pyplot as plt
+check usage_video.py and usage_image.py
 
-image = cv2.imread("../test_images/sample.jpg")
-result = pipeline(image)
-plt.imshow(result)
-plt.show()
-```
-Processing a Video
-```
-from lane_detection import process_video
-process_video("../test_videos/input.mp4", "output/output.mp4")
-```
 📜 Requirements
 ```
 numpy
